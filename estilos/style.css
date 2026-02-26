@@ -73,3 +73,18 @@ div#formulario h1{
 div#formulario p{
    font-size: 0.8em;
 }
+
+div#formulario input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #E0E1DD;
+}
+input#submit{
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}   
