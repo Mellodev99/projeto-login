@@ -28,6 +28,7 @@ telas extra grandes (monitores grandes): 1200px ou mais
         width: 70%;
         
     }
+ 
 }
 
 
@@ -40,12 +41,19 @@ telas extra grandes (monitores grandes): 1200px ou mais
 
     }
    section#login > div#imagem{
-        float: left;
+        float: right;
         width: 45%;
         height: 100%;
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+       div#formulario h1{
+        font-size: 2em;
+        
+    }
+    div#formulario p{
+   font-size: 1.2em;
+}
 }
